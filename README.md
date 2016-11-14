@@ -2,7 +2,7 @@
 
 ### Install
 ```bash
-src/main/frontend
+cd src/main/frontend
 npm install
 ```
 Extract the stuff you need from the pom.xml file to automatically run gulp whenever you build.
