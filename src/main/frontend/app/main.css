@@ -1,0 +1,48 @@
+div[contenteditable='true']:hover{
+  background: #E6E6E6;
+}
+
+.ng-enter {
+	animation: fadeIn 0.5s both ease-in;
+	z-index: 8888;
+}
+
+.ng-leave {
+	animation: fadeOut 0.5s both ease-in;
+	z-index: 9999;
+}
+
+.ng-hide-remove {
+	animation: fadeIn 0.3s both ease-in;
+	z-index: 8888;
+}
+
+.ng-hide {
+	animation: fadeOut 0.3s both ease-in;
+	z-index: 9999;
+}
+
+div[ui-view=main].ng-leave-active{
+	position: absolute;
+	top: 0px;
+}
+
+.no-animation, div[ui-view=navbar]{
+	animation: none !important;
+}
+
+.navbar{
+	background-color: #808080;
+}
+
+.navbar > div > div > ul > li > a {
+ 	color: white !important;
+}
+
+.navbar > div > div > ul> li.active > a {
+	color: black !important;
+}
+
+.nav>li>a, .navbar-brand{
+	color: #FD9827;
+}
