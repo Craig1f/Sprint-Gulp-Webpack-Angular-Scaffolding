@@ -16,7 +16,7 @@ gulp.task('default', function(){
 
 gulp.task('build:prod', function(){   
 	var wp = require('webpack');
-	var config = require('./webpack.prod.config.js');
+	var config = require('./webpack.config.js');
 	config.plugins.push(new wp.optimize.DedupePlugin())
 	config.plugins.push(new wp.optimize.UglifyJsPlugin({
       compress: {warnings: false},
