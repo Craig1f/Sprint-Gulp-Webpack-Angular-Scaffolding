@@ -26,6 +26,7 @@ src/test
 .settings/org.eclipse.wst.validation.prefs
 .springBeans
 .tern-project
+src/main/frontend/node/
 src/.DS_Store
 src/main/.DS_Store
 src/main/frontend/.DS_Store
